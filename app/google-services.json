@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:294271432305:android:fbc5cde4873dcd22414dd0",
+        "mobilesdk_app_id": "1:294271432305:android:6cb92d6ceae9a02b414dd0",
         "android_client_info": {
-          "package_name": "com.wiseassblog.jetpacknotesmvvmkotlinnims"
+          "package_name": "com.nims.jetpacknotesmvvmkotlin"
         }
       },
       "oauth_client": [
