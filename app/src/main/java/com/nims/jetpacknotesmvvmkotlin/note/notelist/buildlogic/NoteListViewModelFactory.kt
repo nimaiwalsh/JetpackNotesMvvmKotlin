@@ -1,9 +1,9 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist.buildlogic
+package com.nims.jetpacknotesmvvmkotlin.note.notelist.buildlogic
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.INoteRepository
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.NoteListViewModel
+import com.nims.jetpacknotesmvvmkotlin.model.repository.INoteRepository
+import com.nims.jetpacknotesmvvmkotlin.note.NoteListViewModel
 import kotlinx.coroutines.Dispatchers
 
 class NoteListViewModelFactory(

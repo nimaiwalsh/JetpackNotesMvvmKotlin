@@ -1,12 +1,12 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.common
+package com.nims.jetpacknotesmvvmkotlin.common
 
 import android.text.Editable
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseUser
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.FirebaseNote
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.Note
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.RoomNote
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.User
+import com.nims.jetpacknotesmvvmkotlin.model.FirebaseNote
+import com.nims.jetpacknotesmvvmkotlin.model.Note
+import com.nims.jetpacknotesmvvmkotlin.model.RoomNote
+import com.nims.jetpacknotesmvvmkotlin.model.User
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine

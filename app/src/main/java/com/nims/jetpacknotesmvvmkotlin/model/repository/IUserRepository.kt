@@ -1,7 +1,7 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model.repository
+package com.nims.jetpacknotesmvvmkotlin.model.repository
 
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.Result
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.User
+import com.nims.jetpacknotesmvvmkotlin.common.Result
+import com.nims.jetpacknotesmvvmkotlin.model.User
 
 interface IUserRepository {
     suspend fun getCurrentUser(): Result<Exception, User?>

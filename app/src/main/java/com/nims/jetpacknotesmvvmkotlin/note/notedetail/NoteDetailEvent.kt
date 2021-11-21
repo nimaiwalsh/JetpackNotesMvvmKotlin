@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notedetail
+package com.nims.jetpacknotesmvvmkotlin.note.notedetail
 
 sealed class NoteDetailEvent {
     data class OnDoneClick(val contents: String) : NoteDetailEvent()

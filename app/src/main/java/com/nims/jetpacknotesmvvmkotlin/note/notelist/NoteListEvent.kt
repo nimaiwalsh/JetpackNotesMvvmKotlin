@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist
+package com.nims.jetpacknotesmvvmkotlin.note.notelist
 
 sealed class NoteListEvent {
     data class OnNoteItemClick(val position: Int) : NoteListEvent()

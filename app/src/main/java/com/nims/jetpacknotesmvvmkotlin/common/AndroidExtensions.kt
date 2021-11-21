@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.common
+package com.nims.jetpacknotesmvvmkotlin.common
 
 import android.graphics.drawable.AnimationDrawable
 import android.widget.Toast

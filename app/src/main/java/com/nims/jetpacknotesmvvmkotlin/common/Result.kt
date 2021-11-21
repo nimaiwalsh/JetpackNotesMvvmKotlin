@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.common
+package com.nims.jetpacknotesmvvmkotlin.common
 
 /**
  * Result Wrapper <Left = Exception, Right = Value/Success>

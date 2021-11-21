@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model
+package com.nims.jetpacknotesmvvmkotlin.model
 
 data class Note(val creationDate:String,
                 val contents:String,

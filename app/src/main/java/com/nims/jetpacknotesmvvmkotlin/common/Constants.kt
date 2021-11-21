@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.common
+package com.nims.jetpacknotesmvvmkotlin.common
 
 internal const val LOGIN_ERROR = "Error retrieving user."
 internal const val LOADING = "Loading..."

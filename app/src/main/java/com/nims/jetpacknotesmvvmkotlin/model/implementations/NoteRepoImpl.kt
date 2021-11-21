@@ -1,14 +1,14 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model.implementations
+package com.nims.jetpacknotesmvvmkotlin.model.implementations
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QuerySnapshot
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.*
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.FirebaseNote
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.Note
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.NoteDao
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.User
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.INoteRepository
+import com.nims.jetpacknotesmvvmkotlin.common.*
+import com.nims.jetpacknotesmvvmkotlin.model.FirebaseNote
+import com.nims.jetpacknotesmvvmkotlin.model.Note
+import com.nims.jetpacknotesmvvmkotlin.model.NoteDao
+import com.nims.jetpacknotesmvvmkotlin.model.User
+import com.nims.jetpacknotesmvvmkotlin.model.repository.INoteRepository
 
 private const val COLLECTION_NAME = "notes"
 

@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model
+package com.nims.jetpacknotesmvvmkotlin.model
 
 import android.content.Context
 import androidx.room.Database

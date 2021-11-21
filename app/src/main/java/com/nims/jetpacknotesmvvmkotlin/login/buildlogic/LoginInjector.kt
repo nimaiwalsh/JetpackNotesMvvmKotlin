@@ -1,10 +1,10 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.login.buildlogic
+package com.nims.jetpacknotesmvvmkotlin.login.buildlogic
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import com.google.firebase.FirebaseApp
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.implementations.FirebaseUserRepoImpl
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.IUserRepository
+import com.nims.jetpacknotesmvvmkotlin.model.implementations.FirebaseUserRepoImpl
+import com.nims.jetpacknotesmvvmkotlin.model.repository.IUserRepository
 
 class LoginInjector(application: Application): AndroidViewModel(application) {
 

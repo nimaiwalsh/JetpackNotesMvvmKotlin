@@ -9,7 +9,7 @@ apply plugin: 'androidx.navigation.safeargs.kotlin'
 android {
     compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
-        applicationId "com.wiseassblog.jetpacknotesmvvmkotlin"
+        applicationId "com.nims.jetpacknotesmvvmkotlin"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 1

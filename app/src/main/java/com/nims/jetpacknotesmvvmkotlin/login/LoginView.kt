@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.login
+package com.nims.jetpacknotesmvvmkotlin.login
 
 
 import android.content.Intent
@@ -8,7 +8,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.OnBackPressedCallback
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -17,13 +16,13 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.wiseassblog.jetpacknotesmvvmkotlin.R
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.ANTENNA_LOOP
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.RC_SIGN_IN
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.startWithFade
-import com.wiseassblog.jetpacknotesmvvmkotlin.login.buildlogic.LoginInjector
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.LoginResult
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.NoteActivity
+import com.nims.jetpacknotesmvvmkotlin.R
+import com.nims.jetpacknotesmvvmkotlin.common.ANTENNA_LOOP
+import com.nims.jetpacknotesmvvmkotlin.common.RC_SIGN_IN
+import com.nims.jetpacknotesmvvmkotlin.common.startWithFade
+import com.nims.jetpacknotesmvvmkotlin.login.buildlogic.LoginInjector
+import com.nims.jetpacknotesmvvmkotlin.model.LoginResult
+import com.nims.jetpacknotesmvvmkotlin.note.NoteActivity
 import kotlinx.android.synthetic.main.fragment_login.*
 
 //Note: if you want to support more than just English, you'll want to use Strings.xml instead of const val

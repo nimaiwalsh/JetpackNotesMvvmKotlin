@@ -1,13 +1,13 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note
+package com.nims.jetpacknotesmvvmkotlin.note
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.BaseViewModel
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.GET_NOTES_ERROR
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.Result
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.Note
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.INoteRepository
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist.NoteListEvent
+import com.nims.jetpacknotesmvvmkotlin.common.BaseViewModel
+import com.nims.jetpacknotesmvvmkotlin.common.GET_NOTES_ERROR
+import com.nims.jetpacknotesmvvmkotlin.common.Result
+import com.nims.jetpacknotesmvvmkotlin.model.Note
+import com.nims.jetpacknotesmvvmkotlin.model.repository.INoteRepository
+import com.nims.jetpacknotesmvvmkotlin.note.notelist.NoteListEvent
 import kotlinx.coroutines.launch
 import kotlin.coroutines.CoroutineContext
 

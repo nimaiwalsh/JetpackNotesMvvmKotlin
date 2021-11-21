@@ -1,11 +1,11 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model.implementations
+package com.nims.jetpacknotesmvvmkotlin.model.implementations
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.Result
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.awaitTaskCompletable
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.User
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.IUserRepository
+import com.nims.jetpacknotesmvvmkotlin.common.Result
+import com.nims.jetpacknotesmvvmkotlin.common.awaitTaskCompletable
+import com.nims.jetpacknotesmvvmkotlin.model.User
+import com.nims.jetpacknotesmvvmkotlin.model.repository.IUserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

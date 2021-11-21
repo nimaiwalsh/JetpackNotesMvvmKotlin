@@ -1,16 +1,15 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist
+package com.nims.jetpacknotesmvvmkotlin.note.notelist
 
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.wiseassblog.jetpacknotesmvvmkotlin.R
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.Note
+import com.nims.jetpacknotesmvvmkotlin.R
+import com.nims.jetpacknotesmvvmkotlin.model.Note
 import kotlinx.android.synthetic.main.item_note.view.*
 
 class NoteListAdapter(val event:MutableLiveData<NoteListEvent> = MutableLiveData()): ListAdapter<Note, NoteListAdapter.NoteViewHolder>(NoteDiffUtilCallback()){

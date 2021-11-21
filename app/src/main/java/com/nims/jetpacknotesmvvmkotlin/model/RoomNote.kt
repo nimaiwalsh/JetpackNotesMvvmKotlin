@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model
+package com.nims.jetpacknotesmvvmkotlin.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

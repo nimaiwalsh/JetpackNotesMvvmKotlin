@@ -1,7 +1,7 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model.repository
+package com.nims.jetpacknotesmvvmkotlin.model.repository
 
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.Result
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.Note
+import com.nims.jetpacknotesmvvmkotlin.common.Result
+import com.nims.jetpacknotesmvvmkotlin.model.Note
 
 interface INoteRepository {
     suspend fun getNoteById(noteId: String): Result<Exception, Note>

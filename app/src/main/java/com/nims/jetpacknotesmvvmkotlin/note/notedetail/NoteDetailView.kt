@@ -1,23 +1,21 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notedetail
+package com.nims.jetpacknotesmvvmkotlin.note.notedetail
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.OnBackPressedCallback
 import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.wiseassblog.jetpacknotesmvvmkotlin.R
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.makeToast
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.startWithFade
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.toEditable
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.NoteViewModel
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.notedetail.buildlogic.NoteDetailInjector
+import com.nims.jetpacknotesmvvmkotlin.R
+import com.nims.jetpacknotesmvvmkotlin.common.makeToast
+import com.nims.jetpacknotesmvvmkotlin.common.startWithFade
+import com.nims.jetpacknotesmvvmkotlin.common.toEditable
+import com.nims.jetpacknotesmvvmkotlin.note.NoteViewModel
+import com.nims.jetpacknotesmvvmkotlin.note.notedetail.buildlogic.NoteDetailInjector
 import kotlinx.android.synthetic.main.fragment_note_detail.*
 
 class NoteDetailView : Fragment() {

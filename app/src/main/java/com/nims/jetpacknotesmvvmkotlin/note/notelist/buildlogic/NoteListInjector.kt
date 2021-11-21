@@ -1,11 +1,11 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist.buildlogic
+package com.nims.jetpacknotesmvvmkotlin.note.notelist.buildlogic
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import com.google.firebase.FirebaseApp
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.RoomNoteDatabase
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.implementations.NoteRepoImpl
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.INoteRepository
+import com.nims.jetpacknotesmvvmkotlin.model.RoomNoteDatabase
+import com.nims.jetpacknotesmvvmkotlin.model.implementations.NoteRepoImpl
+import com.nims.jetpacknotesmvvmkotlin.model.repository.INoteRepository
 
 class NoteListInjector(application:Application): AndroidViewModel(application) {
     private fun getNoteRepository(): INoteRepository {

@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.login
+package com.nims.jetpacknotesmvvmkotlin.login
 
 sealed class LoginEvent<out T> {
     object OnAuthButtonClick : LoginEvent<Nothing>()

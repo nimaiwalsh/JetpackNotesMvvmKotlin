@@ -1,8 +1,8 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist
+package com.nims.jetpacknotesmvvmkotlin.note.notelist
 
 
 import androidx.recyclerview.widget.DiffUtil
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.Note
+import com.nims.jetpacknotesmvvmkotlin.model.Note
 
 class NoteDiffUtilCallback : DiffUtil.ItemCallback<Note>(){
     override fun areItemsTheSame(oldItem: Note, newItem: Note): Boolean {

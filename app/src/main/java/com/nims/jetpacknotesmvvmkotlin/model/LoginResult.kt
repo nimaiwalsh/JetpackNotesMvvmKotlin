@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.model
+package com.nims.jetpacknotesmvvmkotlin.model
 
 /**
  * Wrapper class for data recieved in LoginActivity's onActivityResult()

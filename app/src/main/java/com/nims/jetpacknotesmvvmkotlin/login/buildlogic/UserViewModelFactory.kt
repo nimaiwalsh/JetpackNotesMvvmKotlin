@@ -1,9 +1,9 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.login.buildlogic
+package com.nims.jetpacknotesmvvmkotlin.login.buildlogic
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.wiseassblog.jetpacknotesmvvmkotlin.login.UserViewModel
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.IUserRepository
+import com.nims.jetpacknotesmvvmkotlin.login.UserViewModel
+import com.nims.jetpacknotesmvvmkotlin.model.repository.IUserRepository
 import kotlinx.coroutines.Dispatchers
 
 class UserViewModelFactory(

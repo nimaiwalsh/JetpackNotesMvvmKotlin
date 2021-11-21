@@ -1,9 +1,9 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.login
+package com.nims.jetpacknotesmvvmkotlin.login
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseApp
-import com.wiseassblog.jetpacknotesmvvmkotlin.R
+import com.nims.jetpacknotesmvvmkotlin.R
 
 private const val LOGIN_VIEW = "LOGIN_VIEW"
 

@@ -1,2 +1,2 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note
+package com.nims.jetpacknotesmvvmkotlin.note
 

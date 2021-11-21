@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.common
+package com.nims.jetpacknotesmvvmkotlin.common
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

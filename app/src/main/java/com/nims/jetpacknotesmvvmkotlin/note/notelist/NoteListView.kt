@@ -1,4 +1,4 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist
+package com.nims.jetpacknotesmvvmkotlin.note.notelist
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
@@ -8,13 +8,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.wiseassblog.jetpacknotesmvvmkotlin.R
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.makeToast
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.startWithFade
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.NoteListViewModel
-import com.wiseassblog.jetpacknotesmvvmkotlin.note.notelist.buildlogic.NoteListInjector
+import com.nims.jetpacknotesmvvmkotlin.R
+import com.nims.jetpacknotesmvvmkotlin.common.makeToast
+import com.nims.jetpacknotesmvvmkotlin.common.startWithFade
+import com.nims.jetpacknotesmvvmkotlin.note.NoteListViewModel
+import com.nims.jetpacknotesmvvmkotlin.note.notelist.buildlogic.NoteListInjector
 import kotlinx.android.synthetic.main.fragment_note_list.*
 
 class NoteListView : Fragment() {

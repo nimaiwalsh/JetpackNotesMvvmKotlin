@@ -1,10 +1,10 @@
-package com.wiseassblog.jetpacknotesmvvmkotlin.login
+package com.nims.jetpacknotesmvvmkotlin.login
 
 import androidx.lifecycle.MutableLiveData
-import com.wiseassblog.jetpacknotesmvvmkotlin.common.*
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.LoginResult
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.User
-import com.wiseassblog.jetpacknotesmvvmkotlin.model.repository.IUserRepository
+import com.nims.jetpacknotesmvvmkotlin.common.*
+import com.nims.jetpacknotesmvvmkotlin.model.LoginResult
+import com.nims.jetpacknotesmvvmkotlin.model.User
+import com.nims.jetpacknotesmvvmkotlin.model.repository.IUserRepository
 import kotlinx.coroutines.launch
 import kotlin.coroutines.CoroutineContext
 
